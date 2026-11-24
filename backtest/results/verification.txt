@@ -1,0 +1,21 @@
+Python 3.12.14
+pandas 2.2.3
+
+开始执行双均线策略信号生成...
+test_bad_config_rejected (test_backtest_engine.EngineTests.test_bad_config_rejected) ... ok
+test_bad_inputs_rejected (test_backtest_engine.EngineTests.test_bad_inputs_rejected) ... ok
+test_date_column_and_index_equivalent_input_unchanged (test_backtest_engine.EngineTests.test_date_column_and_index_equivalent_input_unchanged) ... ok
+test_fee_aware_lot_rounding (test_backtest_engine.EngineTests.test_fee_aware_lot_rounding) ... ok
+test_final_signal_not_filled_and_one_row_valid (test_backtest_engine.EngineTests.test_final_signal_not_filled_and_one_row_valid) ... ok
+test_future_changes_do_not_change_past (test_backtest_engine.EngineTests.test_future_changes_do_not_change_past) ... ok
+test_insufficient_cash_never_borrows (test_backtest_engine.EngineTests.test_insufficient_cash_never_borrows) ... ok
+test_manual_cash_shares_fees_and_next_trading_day (test_backtest_engine.EngineTests.test_manual_cash_shares_fees_and_next_trading_day) ... ok
+test_persistent_one_is_target_not_repeated_order (test_backtest_engine.EngineTests.test_persistent_one_is_target_not_repeated_order) ... ok
+test_real_data_strategy_is_causal_and_account_reconciles (test_backtest_engine.EngineTests.test_real_data_strategy_is_causal_and_account_reconciles) ... ok
+test_slippage_and_sell_tax_not_double_deducted (test_backtest_engine.EngineTests.test_slippage_and_sell_tax_not_double_deducted) ... ok
+test_zero_volume_blocks_then_uses_latest_target (test_backtest_engine.EngineTests.test_zero_volume_blocks_then_uses_latest_target) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.257s
+
+OK

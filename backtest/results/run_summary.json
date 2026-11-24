@@ -1,0 +1,59 @@
+{
+  "config": {
+    "initial_cash": 1000000,
+    "commission_rate": 0.0003,
+    "min_commission": 5.0,
+    "lot_size": 100,
+    "slippage_rate": 0.0,
+    "sell_tax_rate": 0.0
+  },
+  "short_window": 5,
+  "long_window": 20,
+  "parameter_search_performed": false,
+  "source_sha256": {
+    "maotai_total_data.csv": "ed35fc009967c9e01ef1a8f6ffac83c0f595c1a91cdc66a0ab3cad51aff84dfe",
+    "benchmark_hs300.csv": "95da6b944eb2cd63fe5b122207a00b458f359bcc5e909d97120fd39846632e9e",
+    "maotai_test_signals.csv": "be509e65b1e0aa42c7366e497bc6487bf691151f130d4a8fe7a0b8d7814bfaeb"
+  },
+  "results": {
+    "train": {
+      "start": "2020-01-02",
+      "end": "2022-12-30",
+      "trading_days": 728,
+      "trades": 39,
+      "buy_trades": 20,
+      "sell_trades": 19,
+      "final_cash": 69845.23229999933,
+      "final_shares": 1200,
+      "final_total_asset": 1903469.2322999993,
+      "final_net_value": 1.9034692322999993,
+      "total_commission": 17001.7677
+    },
+    "test": {
+      "start": "2023-01-03",
+      "end": "2024-12-31",
+      "trading_days": 484,
+      "trades": 35,
+      "buy_trades": 18,
+      "sell_trades": 17,
+      "final_cash": 110488.3487000002,
+      "final_shares": 400,
+      "final_total_asset": 684768.3487000002,
+      "final_net_value": 0.6847683487000003,
+      "total_commission": 8520.6513
+    },
+    "provided_signals": {
+      "start": "2023-02-06",
+      "end": "2024-12-31",
+      "trading_days": 465,
+      "trades": 33,
+      "buy_trades": 17,
+      "sell_trades": 16,
+      "final_cash": 96133.75680000009,
+      "final_shares": 400,
+      "final_total_asset": 670413.7568000001,
+      "final_net_value": 0.6704137568,
+      "total_commission": 7522.243199999999
+    }
+  }
+}

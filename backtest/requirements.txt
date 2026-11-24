@@ -1,0 +1,2 @@
+# Python >= 3.10。离线回测只需pandas；下载行情仍使用组员1的akshare环境。
+pandas>=2.0,<3.0
